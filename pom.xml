@@ -22,8 +22,8 @@
         <module>modules/module2</module>
         <module>modules/module3</module>
         <module>modules/module4</module>
-        <!--        <module>modules/module5</module>-->
-        <!--        <module>modules/module6</module>-->
+        <module>modules/module5</module>
+        <module>modules/module6</module>
     </modules>
 
     <dependencyManagement>
@@ -36,6 +36,26 @@
             <dependency>
                 <groupId>com.example.openrewrite.test</groupId>
                 <artifactId>module2</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example.openrewrite.test</groupId>
+                <artifactId>module3</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example.openrewrite.test</groupId>
+                <artifactId>module4</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example.openrewrite.test</groupId>
+                <artifactId>module5</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example.openrewrite.test</groupId>
+                <artifactId>module6</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
@@ -60,7 +80,7 @@
                     <dependency>
                         <groupId>org.example</groupId>
                         <artifactId>openRewriteRecipe</artifactId>
-                        <version>1.0-SNAPSHOT</version>
+                        <version>1.0</version>
                     </dependency>
                 </dependencies>
             </plugin>

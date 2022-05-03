@@ -6,13 +6,13 @@
         <groupId>com.example.openrewrite.test</groupId>
         <artifactId>demoOpenrewrite</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../../</relativePath>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
     <groupId>com.example.openrewrite.test</groupId>
     <artifactId>module6</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>module2</name>
+    <name>module6</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
@@ -21,11 +21,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.example.openrewrite.test</groupId>
-            <artifactId>module1</artifactId>
         </dependency>
 
         <dependency>

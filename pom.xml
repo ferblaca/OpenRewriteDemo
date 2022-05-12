@@ -88,7 +88,8 @@
                 <configuration>
                     <activeRecipes>
                         <!--                        <recipe>com.yourorg.ChangeParentPomExample</recipe>-->
-                        <recipe>com.yourorg.YmlMavenRecipe</recipe>
+                        <!--                        <recipe>com.yourorg.YmlMavenRecipe</recipe>-->
+                        <recipe>com.yourorg.DetectMarkerRecipe</recipe>
                     </activeRecipes>
                 </configuration>
                 <dependencies>
